@@ -64,7 +64,7 @@ adk web
 
 By default, this agent is configured to use `gemini-2.5-flash` for fast responses. If your tasks require complex reasoning or large context windows, you can easily upgrade to **Gemini Pro**!
 
-To customize the model, open `main.py` and change the `model` parameter:
+To customize the model, open `agent.py` and change the `model` parameter:
 
 ```python
 from google.adk.agents.llm_agent import Agent
